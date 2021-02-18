@@ -1,8 +1,12 @@
-Zend-2-Ratchet-server
+zf2-ratchet-server library
 =======================
 
+Installation
+---------------------------
+composer require defro/zf2-ratchet-server
 
-Running Server 
+
+Running Server
 ---------------------------
 
 1.Add module "SocketServer" in your application.config.php
@@ -10,21 +14,8 @@ Running Server
 2.In command-line mode  type php  index.php open socket
 
 
-
-
-Installation 
+Required libraries
 ---------------------------
-1.Clone the repo in your vendor directory
+- Ratchet
 
-
-2.Move the module "SocketServer" from "Zend-2-Ratchet-server" repo to your project modules
-
-
-
-
-Required libraries 
----------------------------
--Ratchet
-
-
--Zend Framework 2
+- Zend Framework 2
